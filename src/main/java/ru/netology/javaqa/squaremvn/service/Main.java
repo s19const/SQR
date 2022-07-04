@@ -1,3 +1,5 @@
+package ru.netology.javaqa.squaremvn.service;
+
 import ru.netology.javaqa.squaremvn.service.squareService;
 
 public class Main {
@@ -7,6 +9,6 @@ public class Main {
         int low = 100;
         int high = 500;
         int x = service.calcSQR(low, high);
-
+        System.out.println(service.calcSQR(low, high));
     }
 }
